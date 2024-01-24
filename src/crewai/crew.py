@@ -169,3 +169,4 @@ class Crew(BaseModel):
 
         self._logger.log("debug", f"Working Agent: {task.agent.role}")
         self._logger.log("info", f"Starting Task: {task.description}")
+
